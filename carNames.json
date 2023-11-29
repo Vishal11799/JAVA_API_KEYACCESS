@@ -1,0 +1,25 @@
+{
+  "Count": 3,
+  "Message": "Response returned successfully",
+  "SearchCriteria": "Make: mazda",
+  "Results": [
+    {
+      "MakeId": 473,
+      "MakeName": "MAZDA",
+      "VehicleTypeId": 2,
+      "VehicleTypeName": "Passenger Car"
+    },
+    {
+      "MakeId": 473,
+      "MakeName": "MAZDA",
+      "VehicleTypeId": 3,
+      "VehicleTypeName": "Truck"
+    },
+    {
+      "MakeId": 473,
+      "MakeName": "MAZDA",
+      "VehicleTypeId": 7,
+      "VehicleTypeName": "Multipurpose Passenger Vehicle (MPV)"
+    }
+  ]
+}
