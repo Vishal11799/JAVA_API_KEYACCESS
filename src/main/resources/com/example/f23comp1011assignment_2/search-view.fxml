@@ -11,5 +11,7 @@
       <Button layoutX="416.0" layoutY="48.0" onAction="#searchButtonClicked" prefHeight="26.0" prefWidth="214.0" text="Search" />
       <ListView fx:id="carListView" layoutX="120.0" layoutY="130.0" prefHeight="250.0" prefWidth="500.0" />
       <Button layoutX="305.0" layoutY="411.0" onAction="#displayInfoButtonClicked" prefHeight="26.0" prefWidth="158.0" text="Display Info" />
+
+
    </children>
 </AnchorPane>

@@ -12,8 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("search-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.
-                load());
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Car Names!");
         stage.getIcons().add(new Image(Main.class.getResourceAsStream("Images/Logo.png")));
         stage.setScene(scene);

@@ -3,8 +3,10 @@ package com.example.f23comp1011assignment_2;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -17,6 +19,9 @@ public class SearchViewController {
 
     @FXML
     private ListView<Car> carListView;
+
+    @FXML
+    private Label infoforresultinlabal;
 
     @FXML
     private void initialize(){
@@ -57,4 +62,7 @@ public class SearchViewController {
         alert.setContentText(content);
         alert.showAndWait();
     }
+
+
+
 }
