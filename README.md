@@ -6,6 +6,8 @@
 
 ## All Car Models
 
+
+- mazda
 - MERCEDES-BENZ
 - MERCURY
 - FABRICACION Y COMERCIALIZACION PENA
