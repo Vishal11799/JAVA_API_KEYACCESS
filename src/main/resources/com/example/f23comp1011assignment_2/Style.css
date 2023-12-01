@@ -40,7 +40,7 @@
 #vehicleTypeIdLabel,
 #vehicleTypeNameLabel {
     -fx-font: bold 18pt "Arial";
-    -fx-text-fill: #d32020;
+    -fx-text-fill: #100e0e;
 }
 
 #searchButton,
@@ -82,3 +82,53 @@
 .list-view .list-cell:hover {
     -fx-background-color: #f0f0f0;
 }
+
+#carListView {
+    -fx-background-color: #ffffff;
+}
+
+#makeIdLabel,
+#makeNameLabel,
+#vehicleTypeIdLabel,
+#vehicleTypeNameLabel {
+    -fx-font: bold 18pt "Arial";
+    -fx-text-fill: #100f0f;
+    -fx-background-color: rgba(255, 255, 255, 0.56)
+;
+}
+
+.button {
+    -fx-background-radius: 20px;
+    -fx-font: bold 16pt "Arial";
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3062e1;
+}
+
+.list-cell {
+    -fx-font: 16pt "Arial";
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+}
+
+.list-view {
+    -fx-background-radius: 20px;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #3062e1;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.v-box, .h-box {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
