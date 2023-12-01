@@ -1,0 +1,41 @@
+.root {
+    -fx-background-color: #e06c6c;
+    -fx-font: bold italic 20pt "Arial";
+    -fx-background-image: url("Images/background.png");
+    -fx-background-size: cover;
+}
+
+
+#searchTextField, #makeIdLabel, #makeNameLabel, #vehicleTypeIdLabel, #vehicleTypeNameLabel {
+    -fx-font: bold 18pt "Arial";
+    -fx-text-fill: #d32020;
+}
+
+#searchButton, #backButton, #displayInfoButton {
+    -fx-background-radius: 20px;
+    -fx-font: bold 16pt "Arial";
+    -fx-padding: 10px;
+    -fx-text-fill: #4ae00f;
+    -fx-cursor: hand;
+}
+
+#searchButton:hover, #backButton:hover, #displayInfoButton:hover {
+    -fx-background-color: #3062e1;
+}
+
+.list-view, .text-field {
+    -fx-background-radius: 20px;
+}
+
+#carListView {
+    -fx-padding: 10px;
+}
+
+.v-box {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.h-box {
+    -fx-spacing: 10px;
+}
