@@ -15,7 +15,7 @@ public class SceneChanger {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxmlFileName));
         Scene scene = new Scene(fxmlLoader.load());
 
-        //get the Stage from the ActionEvent
+
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 
         stage.setScene(scene);
@@ -28,7 +28,7 @@ public class SceneChanger {
             Parent root = loader.load();
 
             if (selectedCar != null) {
-                // If the controller needs access to the selected car, pass it here
+
                 InfoViewController infoController = loader.getController();
                 infoController.setCarInfo(selectedCar);
             }

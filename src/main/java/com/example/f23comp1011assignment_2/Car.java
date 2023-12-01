@@ -32,4 +32,6 @@ public class Car {
     public String toString() {
         return makeName + vehicleTypeName;
     }
+
+
 }
